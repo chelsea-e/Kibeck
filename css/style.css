@@ -685,196 +685,6 @@ hr {
 }
 
 
-/* Gallery page */
-
-/* hero-two */
-.hero-two{
-    width: 100%;
-    height: 50vh;
-    background: url('../img/decor/7.jpg') center no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-/* Photos owned by Kibeck */ 
-.introduction-to-kibeck .global-headline{
-    margin-top: 6.9rem;
-}
-
-/* Photos owned by Kibeck */ 
-.history-of-kibeck .global-headline{
-    margin-top: 6.9rem;
-}
-
-::selection{
-    color: #fff;
-    background: #007bff;
-  }
-
-  .wrapper{
-    margin: 100px auto;
-    max-width: 1100px;
-  }
-  .wrapper .kibeck-content{
-    display: flex;
-    justify-content: center;
-  }
-  .wrapper .items{
-    display: flex;
-    max-width: 720px;
-    width: 100%;
-    justify-content: space-between;
-  }
-  .items span{
-    padding: 7px 25px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    color: #000;
-    border-radius: 50px;
-    border: .12rem solid var(--secondary-font-color);
-    transition: all 0.3s ease;
-  }
-  .items span.active,
-  .items span:hover{
-    color: #fff;
-    background: var(--secondary-font-color);
-    border: .10rem solid rgba(0, 0, 0, 0.658);
-  }
-  .gallery{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 30px;
-  }
-  .gallery .image{
-    width: calc(100% / 4);
-    padding: 7px;
-  }
-  .gallery .image span{
-    display: flex;
-    width: 100%;
-    overflow: hidden;
-  }
-  .gallery .image img{
-    width: 100%;
-    vertical-align: middle;
-    transition: all 0.3s ease;
-  }
-  .gallery .image:hover img{
-    transform: scale(1.1);
-  }
-  .gallery .image.hide{
-    display: none;
-  }
-  .gallery .image.show{
-    animation: animate 0.4s ease;
-  }
-  @keyframes animate {
-    0%{
-      transform: scale(0.5);
-    }
-    100%{
-      transform: scale(1);
-    }
-  }
-  .preview-box{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0.9);
-    background: #fff;
-    max-width: 700px;
-    width: 100%;
-    z-index: 5;
-    opacity: 0;
-    pointer-events: none;
-    border-radius: 3px;
-    padding: 0 5px 5px 5px;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
-  }
-  .preview-box.show{
-    opacity: 1;
-    pointer-events: auto;
-    transform: translate(-50%, -50%) scale(1);
-    transition: all 0.3s ease;
-  }
-  .preview-box .details{
-    padding: 13px 15px 13px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .details .title{
-    display: flex;
-    font-size: 18px;
-    font-weight: 400;
-  }
-  .details .title p{
-    font-weight: 500;
-    margin-left: 5px;
-  }
-  .details .icon{
-    color: #007bff;
-    font-style: 22px;
-    cursor: pointer;
-  }
-  .preview-box .image-box{
-    width: 100%;
-    display: flex;
-  }
-  .image-box img{
-    width: 100%;
-    border-radius: 0 0 3px 3px;
-  }
-  .shadow{
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    display: none;
-    background: rgba(0,0,0,0.4);
-  }
-  .shadow.show{
-    display: block;
-  }
-  @media (max-width: 1000px) {
-    .gallery .image{
-      width: calc(100% / 3);
-    }
-  }
-  @media (max-width: 800px) {
-    .gallery .image{
-      width: calc(100% / 2);
-    }
-  }
-  @media (max-width: 700px) {
-    .wrapper nav .items{
-      max-width: 600px;
-    }
-    .kibeck-content .items span{
-      padding: 7px 15px;
-    }
-  }
-  @media (max-width: 600px) {
-    .wrapper{
-      margin: 30px auto;
-    }
-    .wrapper .kibeck-content .items{
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    .kibeck-content .items span{
-      margin: 5px;
-    }
-    .gallery .image{
-      width: 100%;
-    }
-  }
-
 /* Services page */
 
 /* hero-three */
@@ -1057,4 +867,98 @@ hr {
      margin-left: 0;
    }
 
+}
+
+/* Gallery page */
+
+/* hero-two */
+.hero-two{
+    width: 100%;
+    height: 50vh;
+    background: url('../img/decor/7.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* Photos owned by Kibeck */ 
+.introduction-to-kibeck .global-headline{
+    margin-top: 6.9rem;
+}
+
+/* Photos owned by Kibeck */ 
+.history-of-kibeck .global-headline{
+    margin-top: 6.9rem;
+}
+
+.wrapper{
+    margin: 30px auto;
+    max-width: 1100px;
+}
+
+.wrapper .kibeck-content{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .category-head{
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wrapper .category-head .category-title{
+    padding: 7px 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #515151;
+    border: 2px solid var(--secondary-font-color);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.wrapper .category-head .active,
+.wrapper .category-head .category-title:hover{
+    color: #fff;
+    background: var(--secondary-font-color);
+    border: 1px solid var(--body-font-color);
+}
+
+@media (max-width: 700px) {
+    .wrapper .kibeck-content .category-head{
+      max-width: 600px;
+    }
+    .kibeck-content .category-head .category-title{
+      padding: 7px 15px;
+    }
+}
+  
+@media (max-width: 600px) {
+    .wrapper{
+      margin: 30px auto;
+    }
+    .wrapper .kibeck-content .category-head{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .kibeck-content .category-head .category-title{
+      margin: 5px;
+    }
+}
+
+/* Image Functionalities */ 
+.shot{
+    transition: .5s ease-in-out;
+    margin-top: 10px;
+}
+
+.shot:hover{
+    filter: brightness(80%);
+}
+
+.shot img{
+    object-fit:cover;
 }
