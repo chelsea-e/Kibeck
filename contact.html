@@ -1,147 +1,237 @@
 <!-- About us starts -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>kibeck</title>
-        <!-- Font awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-        <!-- Scroll reveal -->
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Kibeck</title>
+  </head>
+  <body>
     <!-- Navigation Link starts -->
     <header>
-        <div class="container">
-            <nav class="nav">
-                <div class="menu-toggle">
-                    <i class="fa fa-bars"></i>
-                    <i class="fa fa-times"></i>
-                </div>
-                <a href="index.html"></a>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="gallery.html" class="nav-link">GALLERY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="services.html" class="nav-link">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link active">CONTACT</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container">
+        <nav class="nav">
+          <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-times"></i>
+          </div>
+          <a href="index.html"></a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="nav-link">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link active">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- Navigation Links ends -->
     <!-- Hero-four starts -->
     <div class="hero-four" id="hero-four"></div>
     <!-- Hero-four ends -->
     <!-- Contact Form starts -->
-    <div class="contain" style="min-height: 80vh; width: 100%; background: #fff; display: flex; align-items: center; justify-content: center;">
-        <div class="content">
-            <div class="left-side">
-                <div class="address details">
-                    <i class="fas fa-map-marker-alt"></i>
-                        <div class="topic">Address</div>
-                        <div class="text-one">15, Bolashadipe Street</div>
-                        <div class="text-two">Surulere, Lagos, Nigeria</div>
-                </div>
-                <div class="phone details">
-                    <i class="fas fa-phone-alt"></i>
-                        <div class="topic">Phone</div>
-                        <div class="text-one">+234-808-244-9015</div>
-                        <div class="text-two">Monday to Saturday, 8:00AM - 10:00PM</div>
-                </div>
-                <div class="email details">
-                    <i class="fas fa-envelope"></i>
-                        <div class="topic">Email</div>
-                        <div class="text-one">kibeckcakesandevents@gmail.com</div>
-                        <div class="text-two">Email us your query</div>
-                </div>
+    <div
+      class="contain py-5"
+      id="sent"
+      style="
+        min-height: 80vh;
+        width: 100%;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      <div class="content">
+        <div class="left-side" id="roller">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">15, Bolashadipe Street</div>
+            <div class="text-two">Surulere, Lagos, Nigeria</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+234-808-244-9015</div>
+            <div class="text-two">Monday to Saturday, 8:00AM - 10:00PM</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">kibeckcakesandevents@gmail.com</div>
+            <div class="text-two">Email us your query</div>
+          </div>
+        </div>
+        <div class="right-side" id="rolled">
+          <div class="topic-text">Send us a message</div>
+          <br />
+          <p>
+            Have something to say? Well, we want to hear it! Let us know how
+            your experience was, good or bad, and someone will contact you back
+            in 24 business hours or less! Let us know how much you love us by
+            submitting a review or ask us any questions that you might have. We
+            are always happy to help!
+          </p>
+          <form action="" id="contactForm" class="email">
+            <div class="alert">Your message sent successfully</div>
+
+            <div class="input-box">
+              <input type="text" id="name" placeholder="Full name" />
+              <small class="error"></small>
             </div>
-        <div class="right-side">
-            <div class="topic-text">Send us a message</div>
-            <br>
-                <p>Have something to say? Well, we want to hear it! Let us know how your experience was, good or bad, and someone will contact you back in 24 business hours or less! Let us know how much you love us by submitting a review or ask us any questions that you might have. We are always happy to help!</p>
-                <br>
-                    <form action="#">
-                        <div class="input-box">
-                            <input type="text" placeholder="Enter your name">
-                        </div>
-                        <div class="input-box">
-                        <input type="text" placeholder="Enter your email">
-                        </div>
-                        <div class="input-box message-box">
-                            <textarea required></textarea>
-                        </div>
-                        <div class="button">
-                        <input type="button" value="Send Now" >
-                        </div>
-                    </form>
+            <div class="input-box">
+              <input type="tel" id="phone" placeholder="Phone No" />
+              <small class="error"></small>
+            </div>
+            <div class="input-box">
+              <input type="text" id="email" placeholder="Email address" />
+              <small class="error"></small>
+            </div>
+            <div class="input-box message-box">
+              <textarea
+                id="message"
+                placeholder="Your Message"
+                rows="6"
+              ></textarea>
+              <small class="error"></small>
+            </div>
+            <div class="button">
+              <input
+                type="submit"
+                value="Send Now"
+                onclick="event.preventDefault(); validateForm()"
+              />
+            </div>
+          </form>
         </div>
-        </div>
+      </div>
     </div>
-<!-- Footer starts -->
-<footer>
-    <div class="container">
+    <br />
+    <br />
+    <br />
+    <!-- Footer starts -->
+    <footer>
+      <div class="container">
         <div class="back-to-top">
-            <a href="#hero-two"><i class="fa fa-chevron-up"></i></a>
+          <a href="#hero-four"><i class="fa fa-chevron-up"></i></a>
         </div>
         <div class="footer-content">
-            <div class="footer-content-about animate-top">
-                <h4>Contact Kibeck</h4>
-                <div class="asterisk"><i class="fa fa-asterisk"></i></div>
-                <p>
-                    Contact us at kibeckcakesandevents@gmail.com or reach us on WhatsApp (+234-808-244-9015) for more inquiries. Don't hesitate to reach out, our sales representatives are readily available to attend to you from the hours of 07:00am - 22:00pm, Monday - Saturday.
-                </p>
+          <div class="footer-content-about animate-top">
+            <h4>Contact Kibeck</h4>
+            <div class="asterisk"><i class="fa fa-asterisk"></i></div>
+            <p>
+              Contact us at kibeckcakesandevents@gmail.com or reach us on
+              WhatsApp (+234-808-244-9015) for more inquiries. Don't hesitate to
+              reach out, our sales representatives are readily available to
+              attend to you from the hours of 07:00am - 22:00pm, Monday -
+              Saturday.
+            </p>
+          </div>
+          <div class="footer-content-divider animate-bottom">
+            <div class="social-media">
+              <h4>Reach us on</h4>
+              <ul class="social-icons">
+                <li>
+                  <a href="https://instagram.com/kibeckevents"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="mailto:kibeckcakesandevents@gmail.com"
+                    ><i class="far fa-envelope-open"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/kibeckcakesandevents/"
+                    ><i class="fab fa-facebook-square"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://wa.me/+2348082449015"
+                    ><i class="fab fa-whatsapp"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://kibeckcakesandevents.netlify.app/"
+                    ><i class="fas fa-globe-africa"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
-            <div class="footer-content-divider animate-bottom">
-                <div class="social-media">
-                    <h4>Reach us on</h4>
-                    <ul class="social-icons">
-                        <li>
-                            <a href="https://instagram.com/kibeckcakesandevents"><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="mailto:kibeckcakesandevents@gmail.com"><i class="far fa-envelope-open"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/kibeckcakesandevents/"><i class="fab fa-facebook-square"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://wa.me/+2348082449015"><i class="fab fa-whatsapp"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://kibeckcakesandevents.netlify.app/"><i class="fas fa-globe-africa"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="newsletter-container">
-                    <h4>Newsletter</h4>
-                    <form action="" class="newsletter-form">
-                        <input type="text" class="newsletter-input" placeholder="Your email address...">
-                        <button class="newsletter-btn" type="submit">
-                            <i class="fa fa-envelope"></i>
-                        </button>
-                    </form>
-                </div>
+            <div class="daily">
+              <h4>Newsletter</h4>
+              <form action="" id="newsForm" class="news mx-auto">
+                <i class="far fa-envelope"></i>
+                <input
+                  type="text"
+                  id="letter"
+                  placeholder="Enter your email ID"
+                />
+                <small class="err"></small>
+                <button
+                  type="submit"
+                  onclick="event.preventDefault(); validateEmail()"
+                >
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </form>
             </div>
+          </div>
         </div>
-    </div>
-</footer>
-<!-- Footer ends -->
-<!-- JS script -->
-<script src="js/main.js"></script>
-</body>
+      </div>
+    </footer>
+    <!-- Footer ends -->
+    <!-- JS script -->
+    <!-- JS script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="js/main.js"></script>
+    <script src="./js/mail.js"></script>
+
+  </body>
 </html>
 <!-- Contact Form ends -->
