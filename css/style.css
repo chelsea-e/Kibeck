@@ -772,7 +772,7 @@ hr {
 .hero-three {
   width: 100%;
   height: 50vh;
-  background: url("../img//pexels-michael-morse-2606405.jpg") center no-repeat;
+  background: url("../img/decor/10.jpg") center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -878,7 +878,7 @@ hr {
 }
 
 .col-img {
-  background-image: url("../img/couply.jpg");
+  background-image: url("../img/couple/1.jpg");
   background-position: center;
   background-size: cover;
   min-height: 500px;
@@ -935,7 +935,7 @@ hr {
 
 /* reviews-carousel */
 #reviews {
-  background-image: url(../img/couple/1.jpg);
+  background-image: url(../img/cake/12.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
