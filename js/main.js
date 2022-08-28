@@ -125,3 +125,12 @@ function preview(element) {
     document.querySelector("body").style.overflow = "auto"; //show the scroll bar on body
   };
 }
+
+
+// Figure out
+function onClickMenu() {
+  document.getElementById("menu").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+
+  document.getElementById("menu-bg").classList.toggle("change-bg");
+}
