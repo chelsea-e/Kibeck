@@ -458,7 +458,7 @@ footer {
   color: var(--secondary-font-color);
 }
 
-.news{
+.news {
   padding-bottom: 15px;
   display: flex;
   align-items: center;
@@ -468,12 +468,12 @@ footer {
   width: 260px;
 }
 
-.news .far{
+.news .far {
   font-size: 16px;
   margin-right: 10px;
 }
 
-#newsForm input{
+#newsForm input {
   width: 100%;
   background: transparent;
   color: #ccc;
@@ -482,19 +482,19 @@ footer {
   font-size: 13px;
 }
 
-.news button{
+.news button {
   background: transparent;
   border: 0;
   outline: none;
   cursor: pointer;
 }
 
-.news button .fas{
+.news button .fas {
   font-size: 14px;
   color: #ccc;
 }
 
-.err{
+.err {
   color: #ccc;
   position: relative;
 }
@@ -597,7 +597,7 @@ footer {
     justify-content: space-between;
   }
 
-  .social-media{
+  .social-media {
     width: 100%;
     max-width: 27.3rem;
     margin: 0 1rem;
@@ -606,7 +606,6 @@ footer {
   .social-icons i {
     opacity: 1;
   }
-
 }
 
 /* About us page */
@@ -646,7 +645,7 @@ hr {
   margin-right: -0.7rem;
 }
 
-.deet{
+.deet {
   font-family: var(--body-font);
 }
 
@@ -680,7 +679,6 @@ hr {
 .deet-btn:focus::before {
   background-color: var(--main-font-color-dark);
 }
-
 
 /* Gallery page */
 
@@ -839,7 +837,7 @@ hr {
   flex: none;
 }
 
-.serve{
+.serve {
   color: var(--custom-font-color-dark);
   font-size: 14px;
   font-weight: 650;
@@ -954,17 +952,17 @@ hr {
 }
 
 .review p,
-.review h5{
+.review h5 {
   color: #fff;
   padding-left: 10px;
   padding-right: 10px;
-} 
+}
 
-.review small{
+.review small {
   color: goldenrod;
   padding-left: 10px;
   padding-right: 10px;
-} 
+}
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -985,7 +983,6 @@ hr {
   border-left: 1px solid var(--body-font-color);
 }
 
-
 /* Contact page *
 
 /* hero-four*/
@@ -993,7 +990,7 @@ hr {
 .hero-four {
   width: 100%;
   height: 50vh;
-  background: url('../img/1.jpg') center no-repeat;
+  background: url("../img/1.jpg") center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -1150,41 +1147,43 @@ hr {
   }
 }
 
-.error{
+.error {
   color: red;
 }
 
-.error-border{
+.error-border {
   background-color: 1px solid red;
 }
 
-.input-box small{
+.input-box small {
   position: relative;
   font-size: 12px;
   color: red;
 }
 
-.input-box small i{
+.input-box small i {
   color: seagreen;
 }
 
-input[type="text"]:focus, textarea:focus{
-    border-bottom: 1px solid rgb(255, 0, 106);
-}
-
-input[type="tel"]:focus, textarea:focus{
+input[type="text"]:focus,
+textarea:focus {
   border-bottom: 1px solid rgb(255, 0, 106);
 }
 
-textarea::-webkit-scrollbar{
+input[type="tel"]:focus,
+textarea:focus {
+  border-bottom: 1px solid rgb(255, 0, 106);
+}
+
+textarea::-webkit-scrollbar {
   width: 7px;
 }
 
-textarea::-webkit-scrollbar-thumb{
+textarea::-webkit-scrollbar-thumb {
   background-color: rgb(131, 55, 81);
-} 
+}
 
-.alert{
+.alert {
   width: 100%;
   background: rgb(172, 121, 139);
   padding: 10px 20px;
@@ -1217,7 +1216,6 @@ textarea::-webkit-scrollbar-thumb{
     transform: scale(1);
   }
 }
-
 
 @keyframes grow {
   0% {
@@ -1254,16 +1252,16 @@ textarea::-webkit-scrollbar-thumb{
     opacity: 0;
   }
   20% {
-    opacity: 0.20;
+    opacity: 0.2;
   }
   40% {
-    opacity: 0.40;
+    opacity: 0.4;
   }
   60% {
-    opacity: 0.60;
+    opacity: 0.6;
   }
   80% {
-    opacity: 0.80;
+    opacity: 0.8;
   }
   100% {
     opacity: 1;
