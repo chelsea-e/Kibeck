@@ -147,7 +147,7 @@ nav {
   text-transform: uppercase;
   font-size: 1.6rem;
   letter-spacing: 2px;
-  margin-right: -2px;
+  margin-right: -16px;
   transition: color 0.5s;
 }
 
