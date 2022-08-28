@@ -176,54 +176,82 @@
     <!-- Footer starts -->
     <footer>
         <div class="container">
-            <div class="back-to-top">
-                <a href="#hero"><i class="fa fa-chevron-up"></i></a>
+          <div class="back-to-top">
+            <a href="#hero"><i class="fa fa-chevron-up"></i></a>
+          </div>
+          <div class="footer-content">
+            <div class="footer-content-about animate-top">
+              <h4>Contact Kibeck</h4>
+              <div class="asterisk"><i class="fa fa-asterisk"></i></div>
+              <p>
+                Contact us at kibeckcakesandevents@gmail.com or reach us on
+                WhatsApp (+234-808-244-9015) for more inquiries. Don't hesitate to
+                reach out, our sales representatives are readily available to
+                attend to you from the hours of 07:00am - 22:00pm, Monday -
+                Saturday.
+              </p>
             </div>
-            <div class="footer-content">
-                <div class="footer-content-about animate-top">
-                    <h4>About Kibeck</h4>
-                    <div class="asterisk"><i class="fa fa-asterisk"></i></div>
-                    <p>
-                        Kibeck is an event decoration company that was established in the year 2020, for the sole purpose of making any and every occassion memorable, for both guests and the hosts. We are simply the event decoration company that brings your dreams to life!
-                    </p>
-                </div>
-                <div class="footer-content-divider animate-bottom">
-                    <div class="social-media">
-                        <h4>Reach us on</h4>
-                        <ul class="social-icons">
-                            <li>
-                                <a href="https://instagram.com/kibeckcakesandevents"><i class="fab fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="mailto:kibeckcakesandevents@gmail.com"><i class="far fa-envelope-open"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/kibeckcakesandevents/"><i class="fab fa-facebook-square"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://wa.me/+2348082449015"><i class="fab fa-whatsapp"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://kibeckcakesandevents.netlify.app/"><i class="fas fa-globe-africa"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="newsletter-container">
-                        <h4>Newsletter</h4>
-                        <form action="" class="newsletter-form">
-                            <input type="text" class="newsletter-input" placeholder="Your email address...">
-                            <button class="newsletter-btn" type="submit">
-                                <i class="fa fa-envelope"></i>
-                            </button>
-                        </form>
-                    </div>
-                </div>
+            <div class="footer-content-divider animate-bottom">
+              <div class="social-media">
+                <h4>Reach us on</h4>
+                <ul class="social-icons">
+                  <li>
+                    <a href="https://instagram.com/kibeckevents"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="mailto:kibeckcakesandevents@gmail.com"
+                      ><i class="far fa-envelope-open"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/kibeckcakesandevents/"
+                      ><i class="fab fa-facebook-square"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://wa.me/+2348082449015"
+                      ><i class="fab fa-whatsapp"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://kibeckcakesandevents.netlify.app/"
+                      ><i class="fas fa-globe-africa"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="daily">
+                <h4>Newsletter</h4>
+                <form action="" id="newsForm" class="news mx-auto">
+                  <i class="far fa-envelope"></i>
+                  <input
+                    type="text"
+                    id="letter"
+                    placeholder="Enter your email ID"
+                  />
+                  <small class="err"></small>
+                  <button
+                    type="submit"
+                    onclick="event.preventDefault(); validateEmail()"
+                  >
+                    <i class="fas fa-arrow-right"></i>
+                  </button>
+                </form>
+              </div>
             </div>
+          </div>
         </div>
-    </footer>
-    <!-- Footer ends -->
-<!-- JS script -->
-<script src="js/main.js"></script>
-</body>
-</html>
-<!-- Home ends -->
+      </footer>
+      <!-- Footer ends -->
+      <!-- JS script -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+      <script src="./js/main.js"></script>
+      <script src="./js/mail.js"></script>
+    </body>
+  </html>
+  <!-- Home ends -->
+  
