@@ -993,7 +993,7 @@ hr {
 .hero-four {
   width: 100%;
   height: 50vh;
-  background: url("../img/1.jpg") center no-repeat;
+  background: url('../img/1.jpg') center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
