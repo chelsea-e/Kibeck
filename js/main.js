@@ -127,7 +127,7 @@ function preview(element) {
 }
 
 
-// Figure out
+// To maintain the color of the navbar
 function onClickMenu() {
   document.getElementById("menu").classList.toggle("change");
   document.getElementById("nav").classList.toggle("change");
